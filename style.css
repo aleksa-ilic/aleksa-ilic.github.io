@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+header{
+    background-color: #585858;
+    color:white;
+    padding:0;
+    display:flex;
+    align-items: center;
+    height:70px;
+}
+.logo{
+    font-size: 1.35em;
+    margin-left:15%;
+    cursor: pointer;
+}
+.logo h3{
+    color:rgb(255, 86, 190);
+}
+.logo a{
+    text-decoration: none;
+}
+.nav-bar{
+    position: absolute;
+    right:15%;
+}
+.nav-bar li{
+    display:inline-block;
+    text-decoration: none;
+    font-size: 1.35em;
+    margin:0 10px;
+    cursor:pointer;
+}
+.nav-bar li:hover{
+    text-decoration: underline;
+}
+
